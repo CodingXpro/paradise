@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Aleo&family=Cookie&family=Dancing+Script:wght@600;700&family=Great+Vibes&family=Monoton&family=Nanum+Myeongjo:wght@700&family=Sacramento&family=Satisfy&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.navbar .img1{
+    border-radius:30%;
+    border-bottom :4px solid black;
+    border-right :3px solid black;
+}
+.img1 :focus{
+    outline:none;
+    border:0;
+    border-radius:30%;
+}
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+.modal-content
+{
+    background-color:#512DA8;
+}
+.modal-content .modal-title {
+    color: white; }
+.modal-content .close {
+    color: #D1C4E9; }
+.modal-content .modal-body {
+    background-color: #D1C4E9;}
+
+.footer{
+    background-color: rgba(56, 1, 19, 0.747);
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.heading
+{
+    color:white;
+}
+.jumbotron{
+    z-index:2;
+    height: 560px;
+    background-size: cover; 
+	background-repeat: no-repeat; 
+    position:relative;
+    overflow:hidden;
+    margin:0px auto;
+    color:white;
+    /*background-image: url("../img/img1.png");*/
+    object-fit:cover;
+    font-family: 'object-fit: cover;';
+      
+    /*opacity:0.8;*/
+    
+}
+.name{
+    width:100%;
+    text-align: left;
+    animation: slidein-left 2s ease;
+}
+.tag{
+    width:100%;
+    /*text-align: right;*/
+    animation: slidein-right 2s ease;
+}
+
+@keyframes slidein-left {
+    0% {
+        transform: translateX(-30%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slidein-right {
+    0% {
+        transform: translateX(30%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/*
+@keyframes right_to_left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+  
+@keyframes left_to_right {
+from {
+    margin-left: -30%;
+}
+to {
+    margin-left: 0;
+}*/
+
+.btn-sm
+{
+    margin-left:100px;
+}
+footer address{
+    font-size:80%;
+    margin:0px;
+    color:white;
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+    /*background: transparent;*/
+    /* background-color: rgb(218, 8, 78);*/
+    /*background: linear-gradient(0.18turn,rgb(112, 3, 3),rgb(134, 1, 1),rgb(170, 2, 2),rgb(211, 3, 3),rgb(211, 3, 3),rgb(211, 3, 3)rgb(211, 3, 3),rgb(143, 2, 2),rgb(161, 3, 3),rgb(80, 3, 3));*/
+
+    /*background-color: rgb(141, 35, 35);*/
+    background: linear-gradient(0.18turn,rgb(124, 3, 3),rgb(161, 3, 3),rgb(189, 3, 3),rgb(211, 3, 3),rgb(211, 3, 3),rgb(211, 3, 3),rgb(161, 3, 3),rgb(133, 3, 3),rgb(80, 3, 3));
+
+}
+.navbar a:hover{
+    text-align:center;
+    border-bottom :3px solid whitesmoke;
+}
+.logo{
+    padding-right:250px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.heading :hover{
+    color:black;    
+}
+
+.intro,.test
+{
+    margin-top:100px;
+}
+.team
+{
+    margin-top:100px;
+    
+}
+.team1
+{
+    background-color: rgb(247, 206, 206);
+}
+.chef{
+    border-radius:50%;
+    border:2px solid black;
+}
+.teamurl
+{
+    margin-top:200px;
+    font-size: 20px;
+    color:crimson;
+}
+.testimonial
+{
+    background-color: rgb(36, 28, 12);
+}
+.test{
+    width:100%;
+    font-size:30px;
+}
+
+video {
+    /*position: absolute;
+    left:0;
+    right:0;
+    z-index:-1;
+    opacity:0.8;
+    height: 100vh;
+    background-size: cover; 
+	background-repeat: no-repeat; 
+    overflow:hidden;
+    margin:0px auto;
+    object-fit:cover;
+    font-family: 'object-fit: cover;';*/
+    height: 100vh;
+    margin:0px auto;
+    object-fit:cover;
+    background-size: cover; 
+	background-repeat: no-repeat;
+    overflow:hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;/*
+  background-size: cover; 
+  min-width: 100%;
+  min-height: 100%;
+	background-repeat: no-repeat; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+}
+
+#menu{
+    
+    background-color: #ebebe0;
+    /*background-color: #f2e6d9;*
+    /
+    /*background-color: #f9f2ec;*/
+    border: 80px solid  #c2c2a3;
+}
+#menu .container1{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+/*
+#menu{
+    background-color: #c5e2c5cb;
+    border: 80px solid  #baebbacb;
+}*/
+.geeks { 
+    width: 300px; 
+    height: 400px; 
+    overflow: hidden; 
+    margin: 0 auto; 
+} 
+   
+.geeks img { 
+    width: 100%; 
+    transition: 0.5s all ease-in-out; 
+} 
+   
+.geeks:hover img { 
+    transform: scale(0.9); 
+    opacity:0.6;
+} 
+
+.chef_des{
+    font-size:25px;
+}
+.chefbtn{
+    color:black;
+}
+.chefbtn :hover{
+    color:red;    
+}
+
+
+.img-thumbnail{
+    border:1px solid black;
+}
+
+.chef_intro{
+    margin-top:100px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+/*HTML, BODY {
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+  }
+  
+  BODY {
+    overflow: hidden;
+    background-color: #222;
+    background-image: 
+      linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
+      linear-gradient(#222, #000);
+    background-size: .75em 100%, 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+  }
+  */
+  .wrapper {
+    border-top: 60px solid  rgb(36, 35, 35);
+    background-color: rgb(36, 35, 35);
+    position: relative;
+    flex-grow: 1;
+    max-width: 1300px;
+    max-height: 800px;
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2vmin;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .wrapper IMG {
+    width:250px;
+    height:300px;
+    z-index: 1;
+    grid-column: span 2;
+    max-width: 100%;
+    margin-bottom: -25%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: scale(1);
+    transition: all .25s;
+  }
+    
+  .wrapper IMG:nth-child(7n + 1) {
+      grid-column: 2 / span 2;
+    }
+    
+    .wrapper IMG:hover {
+      z-index: 2;
+      transform: scale(1.2);
+    }
+ 
+
+    /*
+    .team1{
+        background-color: rgb(36, 35, 35);
+    position: relative;
+    flex-grow: 1;
+    margin: auto;
+    max-width: 1200px;
+    max-height: 1200px;
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2vmin;
+    justify-items: center;
+    align-items: center;
+
+        width:400px;
+        height:400px;
+        z-index: 1;
+        grid-column: span 2;
+        max-width: 100%;
+        margin-bottom: -25%;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        transform: scale(1);
+        transition: all .25s;
+    }*/
+
+
+
+
+.tt{
+    background-color:black;
+    border: 80px solid  rgb(36, 35, 35);
+    margin-bottom: 40px;
+    
+}
+
+#book{
+    background-color: cornsilk;
+    height:70px;
+}
+.reserve{
+    /*position:relative;*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding:10px;
+   vertical-align: center; 
+   margin-top:10px;  
+   text-align: center;
+   width:250px;
+}
+#book .link{
+    vertical-align: center;
+    color:black;
+}
+    
+
+.tab{
+    color:rgb(40, 165, 9);
+    font-size:25px;
+}
+
+
+
+.name{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size:120px;
+}
+.chef_intro h2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size:80px;
+}
+.chef_intro h4{
+    font-family: 'Patrick Hand', cursive;
+    font-size:40px;
+}
+.location h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size:50px;
+}
+
+.jumbotron p{
+    font-family: 'Satisfy', cursive;
+    font-size:30px;
+}
+ 
+.intro h4, .team h4,.test h4 {
+    font-family: 'Sacramento', cursive;
+    font-size:50px;
+}
+.about h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size:70px;
+}
+.intro h1, #menu h2{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:50px;
+}
+.intro h2{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:40px;
+}
+.intro p{
+    font-family: 'Truculenta', sans-serif;
+    font-size:20px;
+}
+.history{
+    /*rgb(241, 240, 238)*/
+    background-color: rgb(241, 240, 238);
+}
+.history p{
+    font-family: 'Old Standard TT', serif;
+    font-size:20px;
+}
+.history .card-header{
+    background-color: burlywood;
+}
+.chef_name{
+    text-align:center;
+    font-family: 'Cookie', cursive;
+    font-size:60px;
+}
+.team p{
+    font-size:26px;
+    font-family: 'Truculenta', sans-serif;
+}
+
+#menu p{
+    font-family: 'Patrick Hand', cursive;
+    font-size:30px;
+}
+

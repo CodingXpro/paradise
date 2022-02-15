@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>PARADISE</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!-- ----------------------------------- -->
+   <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Cairo&family=EB+Garamond:wght@700&family=Kalam&family=Special+Elite&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto logo" href="#"><img src="img/logo2.png" height="40" width="60"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./menu.html"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul>
+
+                <span class="navbar-text">
+                    <a data-toggle="modal" href="#" data-target="#loginModal">
+                    <span class="fa fa-sign-in"></span> Login</a>
+                </span>
+                <a class="navbar-brand ml-4 mr-0 " href="./chef.html"><img class="img1" src="img/chef.png" height="60" width="60"></a>
+            </div>
+        </div>
+    </nav>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>   
+                            <button type="button" class="btn btn-secondary btn-sm ml-1" data-dismiss="modal">Cancel</button>
+                            <!--button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button-->        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Reserve a Table </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form">
+                            <div class="row">
+                                <div class="col-12 col-sm-4">Number of Guests</div>
+                                <div class="col-12 col-sm-8">
+                                 <label class="radio-inline active"><input type="radio" name="optradio">  1 </label>
+                                 <label class="radio-inline"><input type="radio" name="optradio">  2 </label>
+                                 <label class="radio-inline"><input type="radio" name="optradio">  3 </label>
+                                 <label class="radio-inline"><input type="radio" name="optradio">  4 </label>
+                                 <label class="radio-inline"><input type="radio" name="optradio">  5 </label>
+                                 <label class="radio-inline"><input type="radio" name="optradio">  6 </label>
+                                </div>
+                            </div><br>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    Section
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="btn-group" role="group">
+                                        <a role="button" class="btn btn-success ml-auto btn-sm badge-default" >VEG</a>
+                                        <a role="button" class="btn btn-danger ml-1 btn-sm">NON-VEG</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-12 col-sm-4">Date and Time</div>
+                                <div class="col-12 col-sm-8">
+                                    <div class="row">
+                                         <div class="col-10 col-sm-6">
+                                             <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                                         </div>
+                                         <div class="col-10 col-sm-6">
+                                             <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                                         </div>
+                                     </div>
+                                </div>
+                            </div><br><br>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-4 offset-sm-4">
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Reserve</button>   
+                                <button type="button" class="btn btn-dark btn-sm ml-1" data-dismiss="modal">Cancel</button>
+
+                            </div>
+                                                                
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+    <div class="jumbotron jumbotron-fluid">
+        <video text-center autoplay muted loop poster="">    
+            <source src="./img/food3.mp4" type="video/mp4">
+        </video>
+        <br><br><br><br><br>
+        <div class="row row-header">
+            <div class=" text_jumbo col-12 col-sm-7 offset-sm-4 align-self-center">
+                <h1 class="name">Paradise</h1>
+                <p class="col-9 tag offset-sm-3">Food from the heaven ....</p>
+                                </div>
+        </div>
+        </div>
+    </div>
+    <section id="book">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4  align-self-center">
+                    <a role="button" class=" reserve btn btn-warning " data-toggle="modal" data-target="#reserveModal">Book a Table</a>                
+                </div>
+                <div class="col-12 col-sm-4 mr-0 offset-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><span class="link "><i class="fa fa-google-plus"></i></span></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="link "><i class="fa fa-facebook"></i></span></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><span class="link "><i class="fa fa-twitter"></i></span></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span class="link "><i class="fa fa-youtube"></i></span></a>
+                        <a class="btn btn-social-icon" href="mailto:"><span class="link "><i class="fa fa-envelope-o"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!--div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">Contact Us</li>
+            </ol>
+            <div class="col-12">
+               <h3>Contact Us</h3>
+               <hr>
+            </div>
+        </div-->
+
+        <div class="row location row-content">
+           <div class="col-12">
+              <h3>Location Information</h3><br><br>
+           </div>
+            <div class="col-12 col-sm-4 offset-sm-1">
+                   <h5>Our Address</h5><br>
+                    <address style="font-size: 100%">
+                        121,Old Airport Road<br>
+                        Kodihalli, Bangalore, Karnataka<br>
+                        INDIA<br>
+		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope"></i>:
+                        <a href="mailto:paradise@food.net">paradise@food.net</a>
+		           </address>
+            </div>
+            <div class="col-12 col-sm-6 offset-sm-1">
+                <h5>Map of our Location</h5><br>
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 200px">
+                    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:2px" allowfullscreen></iframe>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-11 offset-sm-1">
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+                    <a role="button" class="btn btn-success" href="mailto:paradise@food.net"><i class="fa fa-envelope-o"></i> Email</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row location row-content">
+           <div class="col-12">
+              <h3>Send us your Feedback</h3><br><br>
+           </div>
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+             <div class="col-12 col-md">
+            </div>
+       </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 col-sm-2 offset-1">
+                    <span class="heading"><h5 >Links</h5></span>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <span class="heading"><h5>Our Address</h5></span>
+                    <address>
+		              121,Old Airport Road<br>
+		              Kodihalli, Bangalore, Karnataka<br>
+		              INDIA<br>
+		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                      <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                      <i class="fa fa-envelope fa-lg"></i>: 
+                      <a href="mailto:paradise@food.net">paradise@food.net</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><span class="heading"><i class="fa fa-google-plus"></i></span></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="heading"><i class="fa fa-facebook"></i></span></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><span class="heading"><i class="fa fa-linkedin"></i></span></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><span class="heading"><i class="fa fa-twitter"></i></span></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span class="heading"><i class="fa fa-youtube"></i></span></a>
+                        <a class="btn btn-social-icon" href="mailto:"><span class="heading"><i class="fa fa-envelope-o"></i></span></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">         
+                <div class="col-auto"> 
+                    <span class="heading"><p><br><br>© Copyright 2020 PARADISE RESTAURANT<br><br></p></span>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
